@@ -7,7 +7,7 @@ This repository houses a comprehensive lottery full-stack application. It encomp
 - A leaderboard system for managing the allowlist
 - A Lottery Contract
 - A Fund Manager contract that facilitates gasless transactions
-- Efforts have been made to streamline certain processes and reduce centralization and cost. Refer to [EIP 4337](https://eips.ethereum.org/EIPS/eip-4337) for more details.
+- To make this gasless and cost-effective, I attempted to reduce the code within a function and centralize certain elements. Alternatively, you can also consider implementing EIP [4337](https://eips.ethereum.org/EIPS/eip-4337).
 - A profile section for reviewing your transaction history
 - Contract testing using Foundry.
 - The primary contracts are BlackListManager.sol, ChainWarzLottery.sol, and FundManager.sol, with others serving as testing contracts.
