@@ -11,7 +11,7 @@ This repository houses a comprehensive lottery full-stack application. It encomp
 - A profile section for reviewing your transaction history
 - Contract testing using Foundry.
 - The primary contracts are BlackListManager.sol, ChainWarzLottery.sol, and FundManager.sol, with others serving as testing contracts.
-- Admin panel - for initiating and concluding battles, as well as approving allowlisted users.
+- Admin panel - for starting and ending battles, as well as approving allowlist users.
 
 ### If you want to make more this efficient -
 - For optimal efficiency, consider eliminating unnecessary getter functions and implementing GraphQL for data retrieval.
