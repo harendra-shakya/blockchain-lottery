@@ -1,0 +1,32 @@
+# vscode
+.vscode
+
+# hardhat
+artifacts
+cache
+deployments
+node_modules
+coverage
+coverage.json
+
+#foundry
+forge-cache
+
+# don't push the environment vars!
+.env
+
+# Generated files
+bin/
+gen/
+out/
+build/
+
+# Log Files
+*.log
+
+typechain 
+typechain-types
+
+# gas
+gas-report.txt
+.gas-snapshot

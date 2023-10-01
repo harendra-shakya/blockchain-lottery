@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Orbitron", "Azonix", "Digital-7 Mono";
+}
+
+body {
+    @apply leading-[normal] m-0 font-orbitron bg-black;
+}
+
+*,
+::before,
+::after {
+    border-width: 0;
+}
+
+@layer components {
+    .link {
+        @apply cursor-pointer hover:underline;
+    }
+
+    /* Colors */
+
+    .primary-gradient-tr {
+        @apply bg-gradient-to-tr from-[#ff817d] via-[#8233ff] via-[#3857fd] to-[#22def1];
+    }
+
+    .primary-gradient-br {
+        @apply bg-gradient-to-br from-[#ff817d] via-[#8233ff] via-[#3857fd] to-[#22def1];
+    }
+
+    .primary-gradient-r {
+        @apply bg-gradient-to-r from-[#ff817d] via-[#8233ff] via-[#3857fd] to-[#22def1];
+    }
+
+    .blue-gradient {
+        @apply bg-gradient-to-br from-[#062675] via-[#194cc3] to-[#031a57];
+    }
+
+    .gradient-br {
+        @apply bg-gradient-to-br from-[#ff817d] via-[#8233ff] via-[#3857fd] to-[#22def1];
+    }
+
+    .loading {
+        @apply cursor-progress;
+    }
+
+    .btn-shadow {
+        @apply shadow-[0px_16px_16px_rgba(243,_116,_132,_0.4),_0px_24px_24px_rgba(56,_147,_232,_0.25),_0px_32px_56px_#7841ed];
+    }
+
+    .cw-btn {
+        @apply sm:py-4 md:py-8 py-4 px-16 mx-auto cursor-pointer bg-white rounded-xl btn-shadow hover:opacity-90 [border:none] default-text-21xl;
+    }
+
+    .stroke {
+        @apply [-webkit-text-stroke:1px_#35d2e2];
+    }
+
+    .h-shadow {
+        @apply [text-shadow:0px_0px_64px_#5fb2ff] stroke;
+    }
+
+    /* Text Colors */
+
+    .text-gradient-tr {
+        @apply font-orbitron text-transparent bg-clip-text primary-gradient-tr uppercase btn-leading;
+    }
+
+    .text-gradient-br {
+        @apply font-orbitron text-transparent bg-clip-text primary-gradient-br uppercase btn-leading;
+    }
+
+    .text-gradient-r {
+        @apply font-orbitron text-transparent bg-clip-text primary-gradient-r uppercase btn-leading;
+    }
+
+    .bg-gradient {
+        @apply [background:linear-gradient(48.73deg,_#ff817d,_#8233ff_46.35%,_#3857fd_63.02%,_#22def1)];
+    }
+
+    .default-font {
+        @apply font-orbitron;
+    }
+
+    .default-tracking {
+        @apply tracking-[0em];
+    }
+
+    .btn-leading {
+        @apply leading-[48px];
+    }
+
+    .w-faq {
+        @apply w-[250px] md:w-[421px] lg:w-[1021px];
+    }
+
+    .default-scale {
+        @apply scale-[0.9];
+    }
+
+    .default-my {
+        @apply my-0;
+    }
+
+    /* Text */
+
+    .default-text-161xl {
+        @apply text-53xl sm:text-77xl md:text-101xl lg:text-123xl 2xl:text-161xl;
+    }
+
+    .default-text-100xl {
+        @apply text-53xl sm:text-77xl md:text-100xl;
+    }
+
+    .default-text-77xl {
+        @apply text-29xl sm:text-53xl md:text-77xl leading-[60px] sm:leading-[150px] md:leading-[110px];
+    }
+
+    .default-text-53xl {
+        @apply text-29xl sm:text-45xl md:text-53xl leading-[50px] md:leading-[105px];
+    }
+
+    .default-text-29xl {
+        @apply md:text-29xl text-21xl;
+    }
+
+    .default-text-21xl {
+        @apply text-7xl sm:text-13xl md:text-21xl;
+    }
+
+    .default-text-13xl {
+        @apply text-7xl sm:text-13xl;
+    }
+
+    .leaderboard-width {
+        @apply lg:w-[1200px] md:w-[700px];
+    }
+
+    /* Input */
+
+    .cw-input {
+        @apply font-orbitron text-5xl bg-[transparent] rounded-lg flex flex-row py-8 px-6 border-[1px] text-white border-solid border-gray;
+    }
+}

@@ -1,0 +1,20 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /test
+Disallow: /battle
+Disallow: /battleEnded
+Disallow: /battles
+Disallow: /debug
+Disallow: /profile
+Disallow: /blockexplorer
+Disallow: /example-ui
+
+# Host
+Host: https://chainwarz.io
+
+# Sitemaps
+Sitemap: https://chainwarz.io/sitemap.xml

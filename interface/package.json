@@ -1,0 +1,28 @@
+{
+  "name": "chainwarz",
+  "version": "0.0.1",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/nextjs"
+    ]
+  },
+  "scripts": {
+    "start": "yarn workspace @chainwarz/nextjs dev",
+    "next:lint": "yarn workspace @chainwarz/nextjs lint",
+    "next:format": "yarn workspace @chainwarz/nextjs format",
+    "next:check-types": "yarn workspace @chainwarz/nextjs check-types",
+    "postinstall": "husky install",
+    "precommit": "lint-staged",
+    "vercel": "yarn workspace @chainwarz/nextjs vercel",
+    "vercel:yolo": "yarn workspace @chainwarz/nextjs vercel:yolo"
+  },
+  "packageManager": "yarn@3.2.3",
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3"
+  },
+  "dependencies": {
+    "@next/bundle-analyzer": "^13.4.3"
+  }
+}

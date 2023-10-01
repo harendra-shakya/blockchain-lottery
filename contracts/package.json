@@ -1,0 +1,33 @@
+{
+  "name": "chainwarz",
+  "version": "0.0.1",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/hardhat",
+      "packages/nextjs"
+    ]
+  },
+  "scripts": {
+    "account": "yarn workspace @chainwarz/backend account",
+    "chain": "yarn workspace @chainwarz/backend chain",
+    "deploy": "yarn workspace @chainwarz/backend deploy",
+    "compile": "yarn workspace @chainwarz/backend compile",
+    "generate": "yarn workspace @chainwarz/backend generate",
+    "hardhat:lint": "yarn workspace @chainwarz/backend lint",
+    "hardhat:lint-staged": "yarn workspace @chainwarz/backend lint-staged",
+    "hardhat:test": "yarn workspace @chainwarz/backend test",
+    "start": "yarn workspace @chainwarz/frontend dev",
+    "next:lint": "yarn workspace @chainwarz/frontend lint",
+    "next:format": "yarn workspace @chainwarz/frontend format",
+    "next:check-types": "yarn workspace @chainwarz/frontend check-types",
+    "postinstall": "husky install",
+    "precommit": "lint-staged",
+    "vercel": "yarn workspace @chainwarz/frontend vercel"
+  },
+  "packageManager": "yarn@3.2.3",
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3"
+  }
+}
