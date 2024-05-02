@@ -1,5 +1,8 @@
 Discover exactly what happened by following this link: [Partership Scam](https://www.linkedin.com/posts/harendra-shakya_staysafe-scam-crypto-activity-7114235992462520320-_BGX?utm_source=share&utm_medium=member_desktop)
 
+[![Partership Scam Video](https://i.imgur.com/iLD0DPT.png)](https://www.linkedin.com/posts/harendra-shakya_staysafe-scam-crypto-activity-7114235992462520320-_BGX?utm_source=share&utm_medium=member_desktop)
+
+
 This repository houses a comprehensive lottery full-stack application. It encompasses the following components:
 
 ### **Interface:**
